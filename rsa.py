@@ -1,15 +1,22 @@
+
 #!/bin/python3
 
 from Crypto.Util.number import *
+from factordb.factordb import FactorDB
+
 
 n = int(input("ENTER n : "))
 e = int(input("ENTER e : "))
 c = int(input("ENTER c : "))
 
-print("Find out p and q from factordb")
 
-p = int(input("ENTER P : "))
-q = int(input("ENTER q : "))
+f=FactorDB(n)
+f.get_factor_list()
+f.connect()
+result=f.get_factor_list()
+
+p = result[0]
+q = result[1]
 
 phi = (p-1)*(q-1)
 
@@ -22,6 +29,9 @@ print(m)
 print("-"*69)
 print("The message after long_to_bytes is :")
 print(long_to_bytes(m))
+
+
+
 
 
 
