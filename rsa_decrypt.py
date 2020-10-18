@@ -1,5 +1,4 @@
 
-#!/bin/python3
 
 from Crypto.Util.number import *
 from factordb.factordb import FactorDB
