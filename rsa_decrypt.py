@@ -1,4 +1,4 @@
-
+# to decrypt simple RSA ciphers
 
 from Crypto.Util.number import *
 from factordb.factordb import FactorDB
