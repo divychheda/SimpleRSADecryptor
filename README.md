@@ -4,7 +4,7 @@ I use this tool usually for CTF challenges
 
 RSA is an asymmetric encryption algorithm which relies on our inability to calculate factors of large numbers efficiently for the security of the data.
 This program has its limitations, and may not work for extremely large numbers (whose factors we can't possibly know of). Works fine for CTF challenges or basic RSA encryptions.
-To understand RSA better:- https://bitsdeep.com/posts/attacking-rsa-for-fun-and-ctf-points-part-1/
+To understand RSA better:- https://bitsdeep.com/posts/attacking-rsa-for-fun-and-ctf-points-part-1/ or **look at the pdf I supplied for notes on its working and derivation.**
 
 
 ## Some stuff needed
